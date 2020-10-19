@@ -146,7 +146,7 @@ async def main(start_port: int, no_auto: bool = False, show_timing: bool = False
 
         # Create a schema
         with log_timer("Publish schema/cred def duration:"):
-            log_status("#3/4 Create a new schema/cred def on the ledger")
+            log_status("#3/4 Create a new schema/cred def on the ledger_test")
             version = format(
                 "%d.%d.%d"
                 % (
