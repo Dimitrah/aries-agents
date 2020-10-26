@@ -159,7 +159,7 @@ async def main(start_port: int, no_auto: bool = False, show_timing: bool = False
                 _,  # schema id
                 credential_definition_id,
             ) = await agent.register_schema_and_creddef(
-                "identity schema", version, ["name", "date", "amka", "idcard_test"]
+                "identity schema", version, ["full_name", "id_card", "birth_date", "age", "address"]
             )
 
         # TODO add an additional credential for Student ID
