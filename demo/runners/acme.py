@@ -23,10 +23,10 @@ LOGGER = logging.getLogger(__name__)
 class AcmeAgent(DemoAgent):
     def __init__(self, http_port: int, admin_port: int, **kwargs):
         super().__init__(
-            "Acme Agent",
+            "NGA Airlines Agent",
             http_port,
             admin_port,
-            prefix="Acme",
+            prefix="NGA Airlines",
             extra_args=["--auto-accept-invites", "--auto-accept-requests"],
             **kwargs,
         )
