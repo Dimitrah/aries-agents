@@ -32,10 +32,10 @@ class FaberAgent(DemoAgent):
         self, http_port: int, admin_port: int, no_auto: bool = False, **kwargs
     ):
         super().__init__(
-            "Faber Agent",
+            "Police Agent",
             http_port,
             admin_port,
-            prefix="Faber",
+            prefix="Police",
             extra_args=[]
             if no_auto
             else ["--auto-accept-invites", "--auto-accept-requests"],
